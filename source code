@@ -1,0 +1,39 @@
+import random
+When_adversity_knocks=["""Asha was getting frustrated and tired of life, so she asked her father what to do. Her father told her to bring an egg, two tea leaves, and a potato.
+    He then brought out three vessels, filled them with water, and placed them on the stove.
+    Once the water was boiling, he told Asha to place the items into each pot and keep an eye on them. After 10 minutes,
+    he asked Asha to peel the egg, peel the potato, and strain the leaves. Asha was left confused.
+    Her father explained, “Each item was placed into the same circumstance, boiling water. See how each responded differently?”
+    He continued, “The egg was soft, but is now hard. The potato was hard, but is now soft. And the tea leaves, they changed the water itself.”
+    The father then asked, “When adversity calls, we respond in the same manner as they have. Now, are you an egg, a potato, or tea leaves?”"""]
+Glass_of_milk=["""There once was a poor boy who spent his days going door-to-door selling newspapers to pay for school. One day, as he was walking his route,
+    he started feeling low and weak. The poor boy was starving, so he decided to ask for food when he came to the next door.
+    The poor boy asked for food but was denied every time, until he reached the door of a girl. He asked for a glass of water, but seeing his poor state,
+    the girl came back with a glass of milk. The boy asked how much he owed her for the milk, but she refused payment.
+    Years later, the girl, who was now a grown woman, fell sick. She went from doctor to doctor, but no one was able to cure her. Finally, she went to the best doctor in town.
+    The doctor spent months treating her until she was finally cured. Despite her happiness, she was afraid she couldn’t afford to pay the bill.
+    But, when the hospital handed her the bill, it read, ‘Paid in full, with a glass of milk.’"""]
+Ants_and_the_grosshoper=["""One bright autumn day, a family of ants was busy working in the warm sunshine.
+    They were drying out the grain they had stored up during the summer when a starving grasshopper came up. With his fiddle under his arm,
+    the grasshopper humbly begged for a bite to eat.
+    “What!” cried the ants, “Haven’t you stored any food away for the winter? What in the world were you doing all summer?”
+    “I didn’t have time to store any food before winter,” the grasshopper whined. “I was too busy making music that the summer flew by.”
+    The ants simply shrugged their shoulders and said, “Making music, were you? Very well, now dance!” The ants then turned their backs on the grasshopper and returned to work."""]
+The_golden_touch=["""There once was a king named Midas who did a good deed for a Satyr. And he was then granted a wish by Dionysus, the god of wine.
+    For his wish, Midas asked that whatever he touched would turn to gold. Despite Dionysus’ efforts to prevent it,
+    Midas pleaded that this was a fantastic wish, and so, it was bestowed.
+    Excited about his newly-earned powers, Midas started touching all kinds of things, turning each item into pure gold.
+    But soon, Midas became hungry. As he picked up a piece of food, he found he couldn’t eat it. It had turned to gold in his hand.
+    Hungry, Midas groaned, “I’ll starve! Perhaps this was not such an excellent wish after all!”
+    Seeing his dismay, Midas’ beloved daughter threw her arms around him to comfort him, and she, too, turned to gold. “The golden touch is no blessing,” Midas cried."""]
+The_golden_duck=["""Once upon a time, a farmer had a goose that laid one golden egg every day. The egg provided enough money for the farmer and his wife to support
+    their daily needs. The farmer and his wife continued to be happy for a long time.
+    But, one day, the farmer thought to himself, “Why should we take just one egg a day? Why can’t we take them all at once and make a lot of money?”
+    The farmer told his wife his idea, and she foolishly agreed.
+    Then, the next day, as the goose laid its golden egg, the farmer was quick with a sharp knife. He killed the goose and cut its stomach open,
+    in the hopes of finding all its golden eggs. But, as he opened the stomach, the only thing he found was guts and blood.
+    The farmer quickly realized his foolish mistake and proceeded to cry over his lost resource.
+    As the days went on, the farmer and his wife became poorer and poorer. How jinxed and how foolish they were."""]
+List_of_all_distinct_lists=[When_adversity_knocks,Glass_of_milk,Ants_and_the_grosshoper,The_golden_touch,The_golden_duck]
+select_randomly_From_List=random.choice(List_of_all_distinct_lists)
+print(select_randomly_From_List)
